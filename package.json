@@ -2,7 +2,7 @@
   "name": "react-timer",
   "version": "0.1.0",
   "description": "A timer example app using React",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack --config webpack.config.js --progress --colors  --env production",
     "build-dev": "./node_modules/.bin/webpack --config webpack.config.js --progress --colors  --env development",

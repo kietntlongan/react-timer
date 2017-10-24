@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from 'App.js';
+import TimerExample from 'TimerExample.js';
 
 ReactDOM.render(
-  <App start={Date.now()} />,
+  <TimerExample start={Date.now()} />,
   document.getElementById('app')
 );
