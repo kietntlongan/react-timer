@@ -1,1 +1,1 @@
-# react-timer
+An timer example using react
