@@ -28,7 +28,7 @@ module.exports = (env) => {
     },
     output: {
       path: path.resolve(__dirname, './dist'),
-      filename: isDev ? 'js/[name].bundle.js' : 'js/[name].[hash].bundle.js',
+      filename: isDev ? 'js/[name].js' : 'js/[name].js',
       sourceMapFilename: isDev ? 'js/[name].bundle.map' : 'js/[name].[chunkhash].bundle.map',
       chunkFilename: isDev ? 'js/[id].chunk.js' : 'js/[id].[chunkhash].chunk.js',
 
